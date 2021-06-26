@@ -57,5 +57,5 @@ while True:
     outputs = net.forward(outputNames)
     findObjects(outputs,img)
 
-    cv.imshow('Image', img)
+    cv.imshow('Tracking Window', img)
     cv.waitKey(1)
